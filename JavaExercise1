@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class JavaExercise1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter marks of subject 1:");
+        byte sub1=sc.nextByte();
+        System.out.println("Enter marks of subject 2:");
+        byte sub2=sc.nextByte();
+        System.out.println("Enter marks of subject 3:");
+        byte sub3=sc.nextByte();
+        System.out.println("Enter marks of subject 4:");
+        byte sub4=sc.nextByte();
+        System.out.println("Enter marks of subject 5:");
+        byte sub5=sc.nextByte();
+        
+        int total= sub1+sub2+sub3+sub4+sub5;
+        float percentage= (float)(total*100)/500;
+        System.out.println("Percentage:"+percentage);
+    }
+}
