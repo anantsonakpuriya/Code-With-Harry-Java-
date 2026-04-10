@@ -1,0 +1,19 @@
+//CGPA of 3 subjects
+import java.util.Scanner;
+public class CWHJavaPracticeSet1Que2{
+  public static void main(String args[]){
+    Scanner scr = new Scanner(System.in);
+    System.out.println("Enter total marks of one subject:");
+    int total=scr.nextInt();
+    System.out.println("Enter marks of Subject 1:");
+    int sub1 = scr.nextInt();
+    System.out.println("Enter marks of Subject 2:");
+    int sub2 = scr.nextInt();
+   System.out.println("Enter marks of Subject 3:");
+    int sub3 = scr.nextInt();
+    int Sum=sub1+sub2+sub3;
+    int finalTotal=total*3;
+    double CGPA= ((double)Sum/finalTotal)*10;
+    
+    }
+  }
