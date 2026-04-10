@@ -1,0 +1,15 @@
+// Sum of 3 numbers
+import java.util.Scanner;
+public class CWHJavaPracticeSet1Que1{
+  public static void main(String args[]){
+    Scanner scr = new Scanner(System.in);
+    System.out.println("Enter first no. :");
+    int a = scr.nextInt();
+    System.out.println("Enter second no. :");
+    int b = scr.nextInt();
+System.out.println("Enter third no. :");
+    int c = scr.nextInt();
+    int Sum=a+b+c;
+    System.out.println("The sum is:"+Sum);
+    }
+  }
