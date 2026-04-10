@@ -1,0 +1,15 @@
+//To check if the no. user enterd is an integer- 
+import java.util.Scanner;
+public class JavaPracticeSet1Que5{
+ public static void main(String[]args){
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the integer:");
+    boolean a=sc.hasNextInt();
+   if(a==true){
+      System.out.println("The no. is an integer");
+    }
+    else{
+      System.out.println("Not an integer");
+    }
+  }
+}
