@@ -1,0 +1,11 @@
+//km to miles converter
+import java.util.Scanner;
+public class JavaPracticeSet1Que4{
+  public static void main(String[]args){
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter no. of Kilometers:");
+    float km=sc.nextFloat();
+    float miles= (km/1.60934f);
+    System.out.println("No. of Miles: "+miles); 
+  }
+}
