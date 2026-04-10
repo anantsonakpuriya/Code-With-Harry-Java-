@@ -1,0 +1,10 @@
+// User name Greeting 
+import java.util.Scanner;
+public class JavaPracticeSet1Que3{
+  public static void main(String[]args){
+    Scanner scr = new Scanner(System.in);
+    System.out.println("Enter your name:");
+    String name=scr.nextLine();
+    System.out.println("Hello "+name+",have a good day.");
+  }
+}
