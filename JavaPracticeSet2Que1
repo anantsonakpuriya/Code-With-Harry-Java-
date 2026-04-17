@@ -1,0 +1,18 @@
+public class JavaPracticeSet2Que1{
+    public static void main(String[]args){
+       /* float a= 7/4*9/2;
+        System.out.println(a);
+        correct output=7.875
+        output=4.0
+        This happens because the literals 7,4,9 & 2 are integers. 
+        so 7/4=1, 9/2=4 & 4*1=4 This 4 is then saved in float varibale a, so it becomes 4.0, and the output is 4.0.
+        So we make the literals float. (by adding f)
+        */
+       
+       // We add f to every literal to make every literal float
+       //float a= 7f/4f*9f/2f;
+       // But if we make any one number float, then also the resultand between integer and float will be float
+       float a=7/4f*9/2f;
+        System.out.println(a);
+    }
+}
