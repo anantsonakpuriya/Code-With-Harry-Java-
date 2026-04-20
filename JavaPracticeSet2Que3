@@ -1,0 +1,14 @@
+import java.util.Scanner;
+ public class JavaPracticeSet2Que3 {
+    public static void main(String[] args) {
+        int num=17;
+        Scanner sc= new Scanner(System.in);
+        int input=sc.nextInt();
+        if(input>num){
+            System.out.println("The given no. is smaller than the no. you entered");
+        }
+        else{
+            System.out.println("The given no. is greater than the no. you entered");
+        }
+    }
+}
