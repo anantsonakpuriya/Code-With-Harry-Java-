@@ -1,0 +1,16 @@
+import java.util.Scanner;
+ public class JavaPracticeSet2Que4 {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+       System.out.println("Enter v:");
+       double v=sc.nextDouble();
+        System.out.println("Enter u:");
+       double u=sc.nextDouble();
+        System.out.println("Enter a:");
+       double a=sc.nextDouble();
+       double result= (v*v-u*u)/(2*a*5);
+      System.out.println("The result is:"+result) ;
+         
+       
+    }
+}
