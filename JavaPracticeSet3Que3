@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class JavaPracticeSet3Que3 {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("Enter the name:");
+         String name= sc.nextLine();
+         String str="Hello <|name|>,Thanks a lot!";
+         String ReplacedStr=str.replace("<|name|>",name);
+         System.out.println("Replaced String: "+ReplacedStr);
+         
+    }
+    
+}
