@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class JavaPracticeSet3Que4 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the string:");
+        String str=sc.nextLine();
+        int doubleSpace=str.indexOf("  ");
+        int tripleSpace=str.indexOf("   ");
+         System.out.println("Detected doubles spaces at index:"+doubleSpace);
+         System.out.println("Detected triple spaces at index:"+tripleSpace);
+        
+    }
+}
