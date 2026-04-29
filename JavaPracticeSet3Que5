@@ -1,0 +1,5 @@
+class JavaPracticeSet3Que5 {
+    public static void main(String[] args) {
+        System.out.println("\"Dear Harry, This Java Course is nice. Thanks\" ");
+    }
+}
