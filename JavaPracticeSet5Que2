@@ -6,7 +6,7 @@ public class JavaPracticeSet5Que2 {
         int n=sc.nextInt();
         int i=0;
         int sum=0;
-        while(i<=n){
+        while(i<n){
             int even=2*i;
             sum=sum+even;
             i=i+1;
