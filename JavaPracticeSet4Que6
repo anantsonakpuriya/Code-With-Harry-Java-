@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class JavaPracticeSet4Que6{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the URL:");
+        String URL=sc.nextLine();
+        if(URL.endsWith(".com")==true){
+            System.out.println("Commercial website.");
+        }
+        else if(URL.endsWith(".org")==true){
+            System.out.println("Organisation website.");
+        }
+        else if(URL.endsWith(".in")==true){
+            System.out.println("Indian website.");
+        }
+        else{
+            System.out.println("Some other website.");
+        }
+    }
+}
