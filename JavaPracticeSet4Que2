@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class JavaPracticeSet4Que2{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter marks of subject 1:");
+    float sub1= sc.nextFloat();
+    System.out.println("Enter marks of subject 2:");
+    float sub2= sc.nextFloat();
+    System.out.println(  "Enter marks of subject 3:");
+    float sub3= sc.nextFloat();
+    System.out.println(  "Marks are out of:");
+    float outOfTotal= sc.nextFloat();
+    
+    float total= sub1+sub2+sub3;
+    float totalPercentage= (total/(outOfTotal*3))*100;
+    float sub1Percentage=( sub1/outOfTotal)*100;
+    float sub2Percentage=( sub2/outOfTotal)*100;
+    float sub3Percentage=( sub3/outOfTotal)*100;
+    if((sub1Percentage>33 && sub2Percentage>33 && sub3Percentage>33) && totalPercentage>40){
+        System.out.println("You have passed the exams!");
+        System.out.println("Sub 1 Percentage:"+sub1Percentage);
+        System.out.println("Sub 2 Percentage:"+sub2Percentage);
+        System.out.println("Sub 3 Percentage:"+sub3Percentage);
+        System.out.println("Total Percentage:"+totalPercentage);
+        
+    }
+    else{
+        System.out.println("Please try again later.");
+    }
+    }
+  }
