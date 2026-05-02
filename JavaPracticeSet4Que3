@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class JavaPracticeSet4Que3{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter your salary:");
+        int sal=sc.nextInt();
+        if(sal>250000 && sal<500000){
+            float tax= (float)(sal/100)*5;
+            System.out.println("Tax=5%:"+tax);
+        }
+         else if(sal>500000 && sal<1000000){
+            float tax= (float)(sal/100)*20;
+            System.out.println("Tax=20%:"+tax);
+        }
+         else if(sal>1000000){
+            float tax= (float)(sal/100)*30;
+            System.out.println("Tax=30%:"+tax);
+        }
+        else{
+            System.out.println(
+                "No tax for you!"
+            );
+        }
+        
+    }  
+}
