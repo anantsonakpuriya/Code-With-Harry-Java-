@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class JavaPracticeSet6Que2 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no. you want to search:");
+        float find=sc.nextFloat();
+        float[]arr={1.5f,2.5f,3.7f,2.2f,4.9f};
+        int count=0;
+        for(float a:arr){
+            if(find==a){
+                System.out.println("Element found at the index:"+count);
+            }
+            count+=1;
+        }
+    }
+}
