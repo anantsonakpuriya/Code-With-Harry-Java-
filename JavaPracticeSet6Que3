@@ -1,0 +1,12 @@
+public class JavaPracticeSet6Que3 {
+    public static void main(String[] args) {
+        int[]PhyMarks={98,65,88,78,93,89,95,85,94,68,99,100};
+        int n=PhyMarks.length;
+        int sum=0;
+        for(int a:PhyMarks){
+            sum+=a;
+        }
+        double average= (double)sum/n;
+        System.out.println("The average marks are:"+average);
+    }
+}
