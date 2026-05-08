@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class JavaPracticeSet7Que3 {
+    public static int sumNatural(int n){
+        int sum=0;
+        for(int i=1;i<=n;i++){
+         sum+=i;
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no. of first natural numbers to be added:");
+        int number=sc.nextInt();
+        int sum=sumNatural(number);
+        System.out.println(sum);
+        
+    }
+}
