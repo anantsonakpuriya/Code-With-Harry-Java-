@@ -1,0 +1,11 @@
+public class JavaPracticeSet7Que9 {
+    static float celsiusToFahrenheit(float c){
+       float f;
+       f= (c*1.8f)+32;
+       return f;
+    }
+    public static void main(String[] args) {
+       float a= celsiusToFahrenheit(42.45f);
+       System.out.println(a);
+    }
+}
